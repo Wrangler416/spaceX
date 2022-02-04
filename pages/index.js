@@ -22,11 +22,14 @@ export default function Home({launches}) {
       </Head>
 
       <main className={styles.main}>
-         <div><Image src={logo}></Image></div>
-        <p className={styles.description}>
+         <div>
+           <Image src={logo} width={600} height={400}></Image>
+           <p className={styles.description}>
           Launches from SpaceX API 
-          <br></br>
-        </p>
+          </p>
+          
+         </div>
+        
 
         <div className={styles.grid}>
 
